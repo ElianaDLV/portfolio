@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Mi página web</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a mi página web</h1>
+        <nav>
+            <ul>
+                <li><a href="acerca-de-mi">Acerca de mí</a></li>
+                <li><a href="educacion">Educación</a></li>
+                <li><a href="habilidades">Habilidades</a></li>
+                <li><a href="contacto">Contacto</a></li>
+                <li><a href="contactame">Contáctame</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="acerca-de-mi">
+        <h2>Acerca de mí</h2>
+        <p>Mi nombre es Eliana.</p>
+        <img src="tu_foto.png" alt="Tu foto aquí" width="200">
+    </section>
+
+    <section id="contacto">
+        <address>
+            Teléfono: <a href="tel:+3512560055">+351 2560055</a>
+        </address>
+    </section>
+   
+    <section id="contactame">
+        <h2>Contáctame</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo"><br><br>
+
+            <label for="asunto">Asunto:</label><br>
+            <input type="text" id="asunto" name="asunto"><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+            
+            <input type="submit" value="Enviar">
+        
+        </form>
+
+
+    </section>
+
+    <footer>
+        <p>Copyright 2023</p>
+    </footer>
+</body>
+</html>
